@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><button id="openFormBtn">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>I am a passionate data analyst with a solid foundation in data analysis, programming, and visualization techniques. My goal is to leverage data to drive business decisions and create impactful insights.</p>
+            <h2>My Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, SQL</li>
+                <li>Data Visualization: Matplotlib, Power BI</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Database Management: MySQL</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Connect with me:</p>
+        <ul>
+            <li><a href="https://github.com/your-github">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a></li>
+            <li>WhatsApp: +91 8805763524</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
